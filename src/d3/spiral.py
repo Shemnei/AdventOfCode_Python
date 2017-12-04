@@ -89,8 +89,10 @@ def spiral_two(val: int) -> int:
 
 if __name__ == '__main__':
     value = input()
-    if isinstance(value, int):
-        value = 295229
+    if not value or isinstance(value, int):
+        with open("input.txt", "r") as f:
+            value = int(f.read())
+
     print("Spiral One (Steps): ", spiral_one(value))
     print("-"*10)
     print("Spiral Two (Value): ", spiral_two(value))
