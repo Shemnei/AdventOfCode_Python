@@ -93,6 +93,6 @@ if __name__ == '__main__':
         with open("input.txt", "r") as f:
             value = int(f.read())
 
-    print("Spiral One (Steps): ", spiral_one(value))
+    print("Spiral One (Steps):", spiral_one(value))
     print("-"*10)
-    print("Spiral Two (Value): ", spiral_two(value))
+    print("Spiral Two (Value):", spiral_two(value))

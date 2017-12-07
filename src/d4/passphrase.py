@@ -34,5 +34,5 @@ if __name__ == '__main__':
         with open("input.txt", "r") as f:
             in_lines = f.read().splitlines()
 
-    print("Valid Passphrases (One): ", passphrase_one(in_lines))
-    print("Valid Passphrases (Two): ", passphrase_two(in_lines))
+    print("Valid Passphrases (One):", passphrase_one(in_lines))
+    print("Valid Passphrases (Two):", passphrase_two(in_lines))

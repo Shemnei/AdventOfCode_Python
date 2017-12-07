@@ -36,5 +36,5 @@ if __name__ == '__main__':
             in_lines = f.read().splitlines()
     in_lines = [int(x) for x in in_lines]
 
-    print("Jumps One: ", jump_one(in_lines))
-    print("Jumps Two: ", jump_two(in_lines))
+    print("Jumps One:", jump_one(in_lines))
+    print("Jumps Two:", jump_two(in_lines))

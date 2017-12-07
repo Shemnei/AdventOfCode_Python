@@ -27,5 +27,5 @@ if __name__ == '__main__':
         with open("input.txt", "r") as f:
             value = f.read()
 
-    print("Captcha One: ", captcha_sum_one(value))
-    print("Captcha Two: ", captcha_sum_two(value))
+    print("Captcha One:", captcha_sum_one(value))
+    print("Captcha Two:", captcha_sum_two(value))

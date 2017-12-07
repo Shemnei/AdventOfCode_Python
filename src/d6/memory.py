@@ -36,5 +36,5 @@ if __name__ == '__main__':
             value = f.read()
     value = [int(x) for x in value.split()]
 
-    print("One - Loop after: ", memory_one(value))
-    print("Two - Loop after: ", memory_two(value)) #2765
+    print("One - Loop after:", memory_one(value))
+    print("Two - Loop after:", memory_two(value))

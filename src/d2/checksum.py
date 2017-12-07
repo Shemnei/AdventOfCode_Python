@@ -37,5 +37,5 @@ if __name__ == '__main__':
         with open("input.txt", "r") as f:
             lines = f.read().splitlines()
 
-    print("Checksum One: ", checksum_one(lines))
-    print("Checksum Two: ", checksum_two(lines))
+    print("Checksum One:", checksum_one(lines))
+    print("Checksum Two:", checksum_two(lines))
