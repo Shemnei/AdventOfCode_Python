@@ -1,4 +1,4 @@
-def plumber_one(programs: dict) -> (str, int):
+def plumber_one(programs: dict) -> int:
     program_set = set()
     program_stack = []
 
@@ -12,7 +12,7 @@ def plumber_one(programs: dict) -> (str, int):
     return len(program_set)
 
 
-def plumber_two(programs: dict) -> (str, int):
+def plumber_two(programs: dict) -> int:
     groups = 0
     program_set = set()
     program_stack = []
