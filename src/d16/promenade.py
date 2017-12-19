@@ -22,7 +22,7 @@ def promenade_two(steps: list) -> str:
     for i in range(iterations):
         str_rep = "".join(order)
         if str_rep in seen:
-            print(i)
+            print("Repeating after", i, "iterations")
             return seen[iterations % i]
         seen.append(str_rep)
 
